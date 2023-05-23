@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for the pages */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f5f7;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Navigation Bar styles */
+nav {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
